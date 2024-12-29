@@ -12,5 +12,25 @@
 
 
     </test>
+    <test name="onlyRunStu">
+        <groups>
+
+        <run>
+            <include name="stu"></include>
+
+        </run>
+
+    </groups>
+        <classes>
+            <class name="com.course.code.suit.SuiteConfig"></class>
+            <class name="com.course.code.groups.GroupsOnClass1"></class>
+            <class name="com.course.code.groups.GroupsOnClass2"></class>
+            <class name="com.course.code.groups.GroupsOnClass3"></class>
+
+        </classes>
+
+
+    </test>
+
 
 </suite>
