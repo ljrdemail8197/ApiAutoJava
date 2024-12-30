@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="thread" parrllel="methods" thread-count="2">
+    <test name="threadtest">
+
+        <classes>
+
+            <class name="com.course.code.MutipleThread.MuiThreadOnXml"/>
+        </classes>
+
+    </test>
+
+    <test name="threadtest2">
+
+        <classes>
+
+            <class name="com.course.code.suit.LoginTest"/>
+        </classes>
+
+    </test>
+
+</suite>
